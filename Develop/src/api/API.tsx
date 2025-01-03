@@ -41,4 +41,6 @@ const searchGithubUser = async (username: string) => {
   }
 };
 
+console.log(searchGithubUser('default'));
+
 export { searchGithub, searchGithubUser };
